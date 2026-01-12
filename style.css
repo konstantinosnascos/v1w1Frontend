@@ -47,3 +47,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
