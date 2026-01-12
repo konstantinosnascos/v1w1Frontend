@@ -142,6 +142,24 @@
     color: var(--text-dark);
 }
 
+@media (min-width: 481px){
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        margin-bottom: 0;
+    }
+
+    .nav-list {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+}
+
+
 @media (min-width: 768px) {
     .event-grid {
         grid-template-columns: repeat(2, 1fr);
