@@ -122,15 +122,64 @@
   color: var(--text-dark);
 }
 
+@media (min-width: 481px){
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        margin-bottom: 0;
+    }
+
+    .nav-list {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+}
+
+
 @media (min-width: 768px) {
   .event-grid {
     grid-template-columns: repeat(2, 1fr);
     padding: 2rem;
   }
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.15rem;
+    }
+
+    .event-title {
+        font-size: 1.4rem;
+    }
+
+    .event-description {
+        font-size: 1rem;
+    }
 }
 
 @media (min-width: 1024px) {
   .event-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+
+    .hero p {
+        font-size: 1.5rem;
+    }
+
+    .event-title {
+        font-size: 1.6rem;
+    }
+
+    .event-description {
+        font-size: 1.2rem;
+    }
+
 }
